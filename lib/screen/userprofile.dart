@@ -117,7 +117,7 @@ class _ProFileState extends State<ProFile> {
 
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.blue[100],
+                    color: Colors.transparent,
                   ),
                   padding: const EdgeInsets.all(10.0),
                   child:
