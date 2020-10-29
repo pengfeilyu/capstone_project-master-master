@@ -67,6 +67,8 @@ flutter:
     - assets/images/import.png
     - assets/images/spectrum.png
     #pnghut.com
+    - assets/images/background.png
+    #dreamstime.com
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

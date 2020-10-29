@@ -59,14 +59,15 @@ class _CloudPageState extends State<CloudPage> {
     return Scaffold(
       backgroundColor: Colors.blue[100],
       body: Container(
-        /*
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/rainbow.png'),
+            image: AssetImage("assets/images/background.png"),
             fit: BoxFit.cover,
+
           ),
         ),
-         */
         child:Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,

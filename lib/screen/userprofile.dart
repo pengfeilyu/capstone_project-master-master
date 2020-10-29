@@ -87,7 +87,13 @@ class _ProFileState extends State<ProFile> {
     return Scaffold(
       backgroundColor: Colors.blue[100],
 
-      body: Center(
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("assets/images/background.png"),
+            fit: BoxFit.cover,
+          ),
+        ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
